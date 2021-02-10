@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+  width: 150px;
+  height: 150px;
+  font-size: 35px;
+  border: none;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.colorWrapper {
+  margin-left: 10vw;
+  margin-top: 15vh;
+  padding-left: 40px;
+  padding-top: 40px;
+  width: 560px;
+  height: 560px;
+  background-color: rgb(235, 223, 223);
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: repeat(3, 150px);
+  grid-auto-flow: row;
+}
+
+.counter {
+  background-color: rgb(235, 223, 223);
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  left: 55vw;
+  top: 32vh;
+  padding: 70px 60px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 150px);
+}
+
+.btn-counter {
+  width: 150px;
+  height: 150px;
+  font-size: 35px;
+  background-color: rgb(16, 65, 65);
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.showCount {
+  border: none;
+  width: 150px;
+  height: 150px;
+  font-size: 100px;
+}
